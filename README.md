@@ -35,7 +35,7 @@ This is a solution to the [Stats preview card component challenge on Frontend Me
 ## My process
 
 :alien: How do I make the filter lighter? I've tried `opacity` but doesn't work.
-:alien:
+:alien: Referred to my code from an older project to implement 'art direction' to swap out mobile/desktop images where appropriate
 :alien:
 :alien:
 :alien:
@@ -49,8 +49,8 @@ This is a solution to the [Stats preview card component challenge on Frontend Me
 
 ## Lessons
 
-1.
-2.
+1. I've learnt how to organise my Sass files into a folder and produce them from the command line with `sass --watch sass/input.scss sass/output.css`.
+2. Implemented art direction again.
 3.
 4.
 
