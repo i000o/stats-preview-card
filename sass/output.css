@@ -93,13 +93,26 @@ section span {
   body {
     text-align: left;
   }
+  picture img {
+    border-top-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+  }
+  footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: hsl(0, 0%, 100%);
+    font-size: 0.6em;
+    text-align: center;
+    margin: 200px 0 50px 0;
+  }
   section {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     flex-flow: row-reverse;
-    padding: 0 0 0 20px;
+    padding: 0 0 0px 20px;
     margin: 0;
     min-width: 70%;
     min-height: auto;
@@ -107,10 +120,30 @@ section span {
   section article {
     max-width: 50%;
   }
-  section img {
-    border-top-left-radius: 0;
-    border-bottom-right-radius: 0;
-    height: 100%;
+  section article h1 {
+    font-size: 1.7em;
+    padding-right: 10px;
+  }
+  section article h2 {
+    font-size: 0.75em;
+    margin: 25px 80px 50px 40px;
+  }
+  section article h3 {
+    font-size: 1.1em;
+    font-weight: 600;
+  }
+  section article p {
+    font-size: 0.65em;
+  }
+  section article h3, section article p {
+    margin: 8px;
+  }
+  section article div.stats {
+    justify-content: flex-start;
+    margin: 20px 35px;
+  }
+  section article div.templates, section article div.queries {
+    margin-left: 20px;
   }
 }
 
